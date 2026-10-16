@@ -1,0 +1,1440 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Portfólio profissional de desenvolvimento web. Criação de websites, sistemas de gestão e aplicações web personalizadas.">
+
+    <meta name="theme-color" content="#0b1120">
+
+    <title>Portfólio - João Ramos</title>
+
+    <!-- Tipografia -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+     
+    <!-- Bootstrap icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<body>
+
+    <!-- === Navegação === -->
+    <nav class="portfolio-navbar" id="portfolioNavbar">
+        <div class="navbar-container">
+
+            <!-- LOGÓTIPO -->
+            <a href="#Inicio" class="navbar-logo" aria-label="Portfólio - Início">
+                <span class="logo-code">&lt;/ <span class="logo-text">Portfólio</span> &gt;</span>
+                
+            </a>
+
+            <!-- BOTÃO MENU MOBILE -->
+            <button
+                class="navbar-toggle"
+                id="navbarToggle"
+                type="button"
+                aria-label="Abrir menu"
+                aria-expanded="false"
+                aria-controls="navbarContent"
+            >
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <!-- CONTEÚDO DA NAVBAR -->
+            <div class="navbar-content" id="navbarContent">
+
+                <!-- LINKS -->
+                <ul class="navbar-links">
+                    <li><a href="#Inicio" class="nav-link active">Início</a></li>
+                    <li><a href="#Sobre" class="nav-link">Sobre</a></li>
+                    <li><a href="#Projectos" class="nav-link">Projectos</a></li>
+                    <li><a href="#Servicos" class="nav-link">Serviços</a></li>
+                    <li><a href="#Experiencia" class="nav-link">Experiência</a></li>
+                    <li><a href="#Contactos" class="nav-link">Contactos</a></li>
+                </ul>
+
+                <!-- REDES SOCIAIS -->
+                <div class="navbar-socials">
+
+                    <a href="https://www.linkedin.com/in/jo%C3%A3o-ramos-132584325/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="social-link"
+                    aria-label="LinkedIn"
+                    title="LinkedIn">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"/>
+                            <rect x="2" y="9" width="4" height="12"/>
+                            <circle cx="4" cy="4" r="2"/>
+                        </svg>
+                    </a>
+
+                    <a href="https://github.com/Ramuzjr"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="social-link"
+                    aria-label="GitHub"
+                    title="GitHub">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+                        </svg>
+                    </a>
+
+                    <a href="mailto:joaomavingaramos@gmail.com"
+                    class="social-link"
+                    aria-label="Enviar email"
+                    title="Email">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <rect x="3" y="5" width="18" height="14" rx="2"/>
+                            <path d="m3 7 9 6 9-6"/>
+                        </svg>
+                    </a>
+
+                </div>
+
+                <!-- BOTÃO DE CONTACTO -->
+                <a href="#Contactos" class="navbar-cta">
+                    <span>Entrar em contacto</span>
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M7 17 17 7M7 7h10v10"/>
+                    </svg>
+                </a>
+
+            </div>
+        </div>
+    </nav>
+    <!-- ./Navegação -->
+
+    <!-- === Conteudo === -->
+    <main>            
+        <!-- === Hero === -->
+        <section id="Inicio" class="inicio">
+            <div class="container">
+                <div class="row align-items-center g-4">
+
+                    <!-- Conteúdo -->
+                    <div class="col-lg-6 inicio-conteudo">
+
+                        <div class="inicio-badge">
+                            <span class="status-ponto"></span>
+                            Desenvolvedor Full Stack
+                        </div>
+
+                        <h1 class="inicio-titulo">
+                            João Ramos
+                            <span>Transformo ideias em soluções digitais.</span>
+                        </h1>
+
+                        <p class="inicio-descricao">
+                            Desenvolvo websites, sistemas de gestão e aplicações web
+                            modernas, intuitivas e seguras, adaptadas às necessidades
+                            de cada negócio.
+                        </p>
+                        
+                        <div class="inicio-acoes">
+                            <a href="#Projectos" class="btn-inicio btn-principal">
+                                <i class="bi bi-briefcase"></i>
+                                <span>Ver projectos</span>
+                            </a>
+
+                            <a href="#Contactos" class="btn-inicio btn-secundario">
+                                <span>Entrar em contacto</span>
+                                <i class="bi bi-arrow-up-right"></i>
+                            </a>
+                        </div>
+
+                        <div class="inicio-tecnologias">
+                            <span>TECNOLOGIAS</span>
+
+                            <div class="tecnologia-lista mb-3">
+                                <span><i class="bi bi-code-slash"></i> Laravel</span>
+                                <span><i class="bi bi-filetype-php"></i> PHP</span>
+                                <span><i class="bi bi-database"></i> MySQL</span>
+                                <span><i class="bi bi-filetype-js"></i> JavaScript</span>
+                            </div>
+                            <div class="tecnologia-lista">
+                                <span><i class="bi bi-git"></i> Git</span>
+                                <span><i class="bi bi-github"></i> Github</span>
+                                <span><i class="bi bi-filetype-html"></i> HTML</span>
+                                <span><i class="bi bi-filetype-css"></i> CSS</span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- ./Hero -->
+
+        <!-- === Sobre === -->
+        <section id="Sobre" class="sobre py-5">
+            <div class="container">
+                <div class="row align-items-center g-5">
+
+                    <!-- Coluna esquerda: Foto e currículo -->
+                    <div class="col-12 col-md-5 col-lg-4"
+                        data-animate="left">
+
+                        <div class="sobre-perfil">
+
+                            <div class="sobre-foto">
+                                <img
+                                    src="img/img-2.png"
+                                    alt="Fotografia de João Mavinga Ramos"
+                                    loading="lazy"
+                                >
+                            </div>
+
+                            <a
+                                href="documentos/curriculo.pdf" target="_blank"
+                                class="btn-curriculo"
+                                download
+                            >
+                                <i class="bi bi-download"></i>
+                                Descarregar currículo
+                            </a>
+
+                        </div>
+                    </div>
+
+                    <!-- Coluna direita: Apresentação -->
+                    <div class="col-12 col-md-7 col-lg-8"
+                        data-animate="right">
+
+                        <div class="sobre-conteudo">
+
+                            <span class="sobre-subtitulo">SOBRE MIM</span>
+
+                            <h2>
+                                João <span>Mavinga</span> Ramos
+                            </h2>
+
+                            <p class="sobre-descricao">
+                                Sou programador e desenvolvedor Full Stack, dedicado à criação de
+                                websites modernos, sistemas de gestão e aplicações web
+                                personalizadas. Trabalho com Laravel, PHP, JavaScript, HTML,
+                                CSS e MySQL para desenvolver soluções funcionais, intuitivas
+                                e adaptadas às necessidades de cada cliente. Tenho também
+                                conhecimentos em hospedagem de websites, gestão de domínios
+                                e e-mails. O meu objectivo é combinar tecnologia, criatividade 
+                                e boas práticas para criar experiências digitais que 
+                                acrescentem valor aos negócios.
+                            </p>
+
+                            <!-- Tecnologias e ferramentas -->
+                            <div class="sobre-tecnologias">
+                                
+                                <span class="sobre-subtitulo">TECNOLOGIAS + FERRAMENTAS</span>
+
+                                <div class="tecnologias-lista">
+
+                                    <!-- Desenvolvimento web -->
+                                    <div class="tecnologia-item" title="Laravel" aria-label="Laravel">
+                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg" alt="Laravel" loading="lazy">
+                                    </div>
+
+                                    <div class="tecnologia-item" title="PHP" aria-label="PHP">
+                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" alt="PHP" loading="lazy">
+                                    </div>
+
+                                    <div class="tecnologia-item" title="JavaScript" aria-label="JavaScript">
+                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="JavaScript" loading="lazy">
+                                    </div>
+
+                                    <div class="tecnologia-item" title="HTML5" aria-label="HTML5">
+                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="HTML5" loading="lazy">
+                                    </div>
+
+                                    <div class="tecnologia-item" title="CSS3" aria-label="CSS3">
+                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="CSS3" loading="lazy">
+                                    </div>
+
+                                    <div class="tecnologia-item" title="Bootstrap" aria-label="Bootstrap">
+                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap" loading="lazy">
+                                    </div>
+
+                                    <!-- Bases de dados e controlo de versões -->
+                                    <div class="tecnologia-item" title="MySQL" aria-label="MySQL">
+                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" alt="MySQL" loading="lazy">
+                                    </div>
+
+                                    <div class="tecnologia-item" title="Git" aria-label="Git">
+                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" alt="Git" loading="lazy">
+                                    </div>
+
+                                    <!-- Ferramentas de desenvolvimento -->
+                                    <div class="tecnologia-item" title="Visual Studio Code" aria-label="Visual Studio Code">
+                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" alt="Visual Studio Code" loading="lazy">
+                                    </div>
+
+                                    <div class="tecnologia-item" title="Postman" aria-label="Postman">
+                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg" alt="Postman" loading="lazy">
+                                    </div>
+
+                                </div>
+                            </div>
+                            <!-- ./Tecnologias e ferramentas -->
+
+                            <!-- Estatísticas -->
+                            <div class="sobre-estatisticas">
+
+                                <div class="estatistica-card" style="--card-delay: 0ms">
+                                    <h3>
+                                        <span class="contador" data-target="14">0</span><span>+</span>
+                                    </h3>
+                                    <p>Projectos</p>
+                                </div>
+
+                                <div class="estatistica-card" style="--card-delay: 120ms">
+                                    <h3>
+                                        <span class="contador" data-target="14">0</span><span>+</span>
+                                    </h3>
+                                    <p>Clientes</p>
+                                </div>
+
+                                <div class="estatistica-card" style="--card-delay: 240ms">
+                                    <h3>
+                                        <span class="contador" data-target="3">0</span><span>+</span>
+                                    </h3>
+                                    <p>Anos de experiência</p>
+                                </div>
+
+                            </div>
+                            <!-- ./Estatísticas -->
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- ./Sobre -->
+
+        <!-- === Projectos === -->
+        <section id="Projectos" class="projectos py-5">
+            <div class="container">
+
+                <div class="titulo-section text-center mb-5"
+                    data-animar="titulo">
+                    <h2>Projectos</h2>
+                    <span class="linha-titulo"></span>
+                </div>
+
+                <div class="row g-3 mb-3">
+
+                    <!-- Projecto 1 -->
+                    <div class="col-12 col-sm-6 col-lg-3"
+                        data-animar="projecto"
+                        style="--atraso: 0ms">
+                        <div class="projecto-card">
+                            <div class="projecto-imagem">
+                                <img
+                                    src="img/Projectos/presentesss7.jpg"
+                                    alt="Projecto 1"
+                                    loading="lazy"
+                                >
+
+                                <div class="projecto-overlay"></div>
+
+                                <a href="#" class="btn-projecto">
+                                    Abrir
+                                    <i class="bi bi-arrow-up-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ./Projecto 1 -->
+
+                    <!-- Projecto 2 -->
+                    <div class="col-12 col-sm-6 col-lg-3"
+                        data-animar="projecto"
+                        style="--atraso: 120ms">
+                        <div class="projecto-card">
+                            <div class="projecto-imagem">
+                                <img
+                                    src="img/Projectos/ccian.png"
+                                    alt="Projecto 2"
+                                    loading="lazy"
+                                >
+
+                                <div class="projecto-overlay"></div>
+
+                                <a href="#" class="btn-projecto">
+                                    Abrir
+                                    <i class="bi bi-arrow-up-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ./Projecto 2 -->
+
+                    <!-- Projecto 3 -->
+                    <div class="col-12 col-sm-6 col-lg-3"
+                        data-animar="projecto"
+                        style="--atraso: 240ms">
+                        <div class="projecto-card">
+                            <div class="projecto-imagem">
+                                <img
+                                    src="img/Projectos/gcbs.jpg"
+                                    alt="Projecto 3"
+                                    loading="lazy"
+                                >
+
+                                <div class="projecto-overlay"></div>
+
+                                <a href="#" class="btn-projecto">
+                                    Abrir
+                                    <i class="bi bi-arrow-up-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ./Projecto 3 -->
+
+                    <!-- Projecto 4 -->
+                    <div class="col-12 col-sm-6 col-lg-3"
+                        data-animar="projecto"
+                        style="--atraso: 360ms">
+                        <div class="projecto-card">
+                            <div class="projecto-imagem">
+                                <img
+                                    src="img/Projectos/maqtransformer.jpg"
+                                    alt="Projecto 4"
+                                    loading="lazy"
+                                >
+
+                                <div class="projecto-overlay"></div>
+
+                                <a href="#" class="btn-projecto">
+                                    Abrir
+                                    <i class="bi bi-arrow-up-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ./Projecto 4 -->
+
+                </div>
+
+                <div class="row g-3 mb-3">
+
+                    <!-- Projecto 1 -->
+                    <div class="col-12 col-sm-6 col-lg-3"
+                        data-animar="projecto"
+                        style="--atraso: 0ms">
+                        <div class="projecto-card">
+                            <div class="projecto-imagem">
+                                <img
+                                    src="img/Projectos/ebs.jpg"
+                                    alt="Projecto 1"
+                                    loading="lazy"
+                                >
+
+                                <div class="projecto-overlay"></div>
+
+                                <a href="#" class="btn-projecto">
+                                    Abrir
+                                    <i class="bi bi-arrow-up-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ./Projecto 1 -->
+
+                    <!-- Projecto 2 -->
+                    <div class="col-12 col-sm-6 col-lg-3"
+                        data-animar="projecto"
+                        style="--atraso: 120ms">
+                        <div class="projecto-card">
+                            <div class="projecto-imagem">
+                                <img
+                                    src="img/Projectos/ilola.jpg"
+                                    alt="Projecto 2"
+                                    loading="lazy"
+                                >
+
+                                <div class="projecto-overlay"></div>
+
+                                <a href="#" class="btn-projecto">
+                                    Abrir
+                                    <i class="bi bi-arrow-up-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ./Projecto 2 -->
+
+                    <!-- Projecto 3 -->
+                    <div class="col-12 col-sm-6 col-lg-3"
+                        data-animar="projecto"
+                        style="--atraso: 240ms">
+                        <div class="projecto-card">
+                            <div class="projecto-imagem">
+                                <img
+                                    src="img/Projectos/unipecas.jpg"
+                                    alt="Projecto 3"
+                                    loading="lazy"
+                                >
+
+                                <div class="projecto-overlay"></div>
+
+                                <a href="#" class="btn-projecto">
+                                    Abrir
+                                    <i class="bi bi-arrow-up-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ./Projecto 3 -->
+
+                    <!-- Projecto 4 -->
+                    <div class="col-12 col-sm-6 col-lg-3"
+                        data-animar="projecto"
+                        style="--atraso: 360ms">
+                        <div class="projecto-card">
+                            <div class="projecto-imagem">
+                                <img
+                                    src="img/Projectos/thesaint.png"
+                                    alt="Projecto 4"
+                                    loading="lazy"
+                                >
+
+                                <div class="projecto-overlay"></div>
+
+                                <a href="#" class="btn-projecto">
+                                    Abrir
+                                    <i class="bi bi-arrow-up-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ./Projecto 4 -->
+
+                </div>
+
+                <div class="row g-3 mb-3">
+
+                    <!-- Projecto 1 -->
+                    <div class="col-12 col-sm-6 col-lg-3"
+                        data-animar="projecto"
+                        style="--atraso: 0ms">
+                        <div class="projecto-card">
+                            <div class="projecto-imagem">
+                                <img
+                                    src="img/Projectos/despachante.jpg"
+                                    alt="Projecto 1"
+                                    loading="lazy"
+                                >
+
+                                <div class="projecto-overlay"></div>
+
+                                <a href="#" class="btn-projecto">
+                                    Abrir
+                                    <i class="bi bi-arrow-up-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ./Projecto 1 -->
+
+                    <!-- Projecto 2 -->
+                    <div class="col-12 col-sm-6 col-lg-3"
+                        data-animar="projecto"
+                        style="--atraso: 120ms">
+                        <div class="projecto-card">
+                            <div class="projecto-imagem" style="background: #695a01;">
+                                <img
+                                    src="img/Projectos/prospera.png"
+                                    alt="Projecto 2"
+                                    loading="lazy"
+                                >
+
+                                <div class="projecto-overlay"></div>
+
+                                <a href="#" class="btn-projecto">
+                                    Abrir
+                                    <i class="bi bi-arrow-up-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ./Projecto 2 -->
+
+                    <!-- Projecto 3 -->
+                    <div class="col-12 col-sm-6 col-lg-3"
+                        data-animar="projecto"
+                        style="--atraso: 240ms">
+                        <div class="projecto-card">
+                            <div class="projecto-imagem" style="background: #024ba5;">
+                                <img
+                                    src="img/Projectos/jhs.png"
+                                    alt="Projecto 3"
+                                    loading="lazy"
+                                >
+
+                                <div class="projecto-overlay"></div>
+
+                                <a href="#" class="btn-projecto">
+                                    Abrir
+                                    <i class="bi bi-arrow-up-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ./Projecto 3 -->
+
+                    <!-- Projecto 4 -->
+                    <div class="col-12 col-sm-6 col-lg-3"
+                        data-animar="projecto"
+                        style="--atraso: 360ms">
+                        <div class="projecto-card">
+                            <div class="projecto-imagem" style="background: #A64811;">
+                                <img
+                                    src="img/Projectos/worktape.png"
+                                    alt="Projecto 4"
+                                    loading="lazy"
+                                >
+
+                                <div class="projecto-overlay"></div>
+
+                                <a href="#" class="btn-projecto">
+                                    Abrir
+                                    <i class="bi bi-arrow-up-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ./Projecto 4 -->
+
+                </div>
+
+                <!-- Botão Ver mais -->
+                <div class="projectos-mais"
+                    data-animar="mais">
+                    <a href="#" class="btn-ver-mais">
+                        Ver mais
+                        <i class="bi bi-arrow-right"></i>
+                    </a>
+                </div>
+                <!-- ./Botão Ver mais -->
+
+            </div>
+        </section>
+        <!-- ./Projectos -->
+
+        <!-- === Serviços === -->
+        <section id="Servicos" class="servicos py-5">
+            <div class="container">
+
+                <!-- Título -->
+                <div class="titulo-section text-center mb-5"
+                    data-servico-animar="titulo">
+
+                    <span class="servicos-subtitulo">O QUE POSSO FAZER POR SI</span>
+
+                    <h2>Os meus serviços</h2>
+
+                    <p class="servicos-intro">
+                        Soluções digitais pensadas para ajudar o seu negócio
+                        a crescer, simplificar processos e destacar-se online.
+                    </p>
+
+                </div>
+
+                <!-- Carousel de serviços -->
+                <div class="servicos-carousel"
+                    data-servicos-carousel
+                    data-servico-animar="carousel">
+
+                    <div class="servicos-viewport">
+                        <div class="servicos-track">
+
+                            <!-- Serviço 1 -->
+                            <div class="servicos-slide">
+                                <article class="servico-card">
+                                    <div class="servico-icone">
+                                        <i class="bi bi-window-stack"></i>
+                                    </div>
+
+                                    <span class="servico-numero">01</span>
+
+                                    <h3>Websites e Landing Pages</h3>
+
+                                    <p>
+                                        Desenvolvimento de websites modernos,
+                                        responsivos e profissionais para apresentar
+                                        a sua empresa, divulgar serviços ou promover produtos.
+                                    </p>
+                                </article>
+                            </div>
+
+                            <!-- Serviço 2 -->
+                            <div class="servicos-slide">
+                                <article class="servico-card">
+                                    <div class="servico-icone">
+                                        <i class="bi bi-database-gear"></i>
+                                    </div>
+
+                                    <span class="servico-numero">02</span>
+
+                                    <h3>Sistemas de Gestão</h3>
+
+                                    <p>
+                                        Criação de sistemas para gerir utilizadores,
+                                        clientes, produtos, solicitações e outros
+                                        processos do dia a dia empresarial.
+                                    </p>
+                                </article>
+                            </div>
+
+                            <!-- Serviço 3 -->
+                            <div class="servicos-slide">
+                                <article class="servico-card">
+                                    <div class="servico-icone">
+                                        <i class="bi bi-code-slash"></i>
+                                    </div>
+
+                                    <span class="servico-numero">03</span>
+
+                                    <h3>Aplicações Web Personalizadas</h3>
+
+                                    <p>
+                                        Desenvolvimento de aplicações web à medida,
+                                        com funcionalidades específicas para responder
+                                        às necessidades de cada cliente.
+                                    </p>
+                                </article>
+                            </div>
+
+                            <!-- Serviço 4 -->
+                            <div class="servicos-slide">
+                                <article class="servico-card">
+                                    <div class="servico-icone">
+                                        <i class="bi bi-cart3"></i>
+                                    </div>
+
+                                    <span class="servico-numero">04</span>
+
+                                    <h3>Lojas Online</h3>
+
+                                    <p>
+                                        Criação de lojas virtuais para apresentar
+                                        produtos, organizar catálogos e facilitar
+                                        a experiência de compra dos clientes.
+                                    </p>
+                                </article>
+                            </div>
+
+                            <!-- Serviço 5 -->
+                            <div class="servicos-slide">
+                                <article class="servico-card">
+                                    <div class="servico-icone">
+                                        <i class="bi bi-globe2"></i>
+                                    </div>
+
+                                    <span class="servico-numero">05</span>
+
+                                    <h3>Hospedagem e Domínios</h3>
+
+                                    <p>
+                                        Apoio na escolha de domínios, configuração
+                                        de hospedagem e publicação de websites
+                                        em serviços como AngoWeb, Hostinger e HostGator.
+                                    </p>
+                                </article>
+                            </div>
+
+                            <!-- Serviço 6 -->
+                            <div class="servicos-slide">
+                                <article class="servico-card">
+                                    <div class="servico-icone">
+                                        <i class="bi bi-tools"></i>
+                                    </div>
+
+                                    <span class="servico-numero">06</span>
+
+                                    <h3>Manutenção e Suporte</h3>
+
+                                    <p>
+                                        Actualização de websites, correcção de erros,
+                                        melhorias de funcionalidades e apoio técnico
+                                        para manter os projectos em funcionamento.
+                                    </p>
+                                </article>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- Controlos do carousel -->
+                    <div class="servicos-controlos">
+
+                        <button type="button"
+                                class="servicos-seta"
+                                data-servicos-anterior
+                                aria-label="Serviços anteriores">
+                            <i class="bi bi-arrow-left"></i>
+                        </button>
+
+                        <div class="servicos-progresso" aria-live="polite">
+                            <span data-servicos-atual>01</span>
+                            <span class="servicos-progresso-linha"></span>
+                            <span data-servicos-total>06</span>
+                        </div>
+
+                        <button type="button"
+                                class="servicos-seta"
+                                data-servicos-seguinte
+                                aria-label="Serviços seguintes">
+                            <i class="bi bi-arrow-right"></i>
+                        </button>
+
+                    </div>
+                </div>
+
+                <!-- Chamada para acção -->
+                <div class="servicos-cta text-center"
+                    data-servico-animar="cta">
+
+                    <p>Tem uma ideia ou um projecto em mente?</p>
+
+                    <a href="#Contactos" class="btn-servicos">
+                        Vamos conversar
+                        <i class="bi bi-arrow-right"></i>
+                    </a>
+                </div>
+
+            </div>
+        </section>
+        <!-- ./Serviços -->
+
+        <!-- === Experiencia === -->
+        <section id="Experiencia" class="experiencia-section py-5">
+            <div class="container">
+
+                <!-- Cabeçalho -->
+                <div class="titulo-section experiencia-header text-center mb-5"
+                    data-experiencia-animar>
+
+                    <span class="experiencia-eyebrow">
+                        <span class="experiencia-ponto"></span>
+                        O MEU PERCURSO
+                    </span>
+
+                    <h2 class="experiencia-titulo">
+                        Experiência <span>profissional</span>
+                    </h2>
+
+                    <p class="experiencia-descricao">
+                        Cada experiência contribuiu para o meu crescimento,
+                        desde os primeiros passos no desenvolvimento de sistemas
+                        até à criação de soluções web e de projectos próprios.
+                    </p>
+                </div>
+
+                <!-- Lista de experiências -->
+                <div class="row g-4 experiencia-lista">
+
+                    <!-- MIREMPET -->
+                    <div class="col-12 col-md-3" data-experiencia-animar>
+                        <article class="experiencia-card">
+
+                            <div class="experiencia-card-topo">
+                                <div class="experiencia-logo experiencia-logo-fallback">
+                                    <i class="bi bi-building"></i>
+                                </div>
+
+                                <span class="experiencia-duracao">
+                                    <i class="bi bi-clock"></i>
+                                    6 meses
+                                </span>
+                            </div>
+
+                            <div class="experiencia-conteudo">
+                                <span class="experiencia-tipo">
+                                    Estágio profissional
+                                </span>
+
+                                <h3>Ministério dos Recursos Minerais, Petróleo e Gás</h3>
+
+                                <p class="experiencia-empresa">MIREMPET</p>
+
+                                <h4>Bolseiro / Estagiário</h4>
+
+                                <p class="experiencia-texto experiencia-texto-recolhido">
+                                    Tive a oportunidade de realizar um estágio no
+                                    Gabinete de Tecnologia de Informação e Comunicação
+                                    Institucional, no Departamento de Tecnologia de
+                                    Informação, na área de Desenvolvimento de Sistemas.
+                                    Durante seis meses, aprofundei os meus conhecimentos
+                                    e aprendi técnicas de desenvolvimento de sistemas.
+                                </p>
+
+                                <button
+                                    type="button"
+                                    class="experiencia-ler-mais"
+                                    aria-expanded="false"
+                                >
+                                    <span>Ler mais</span>
+                                    <i class="bi bi-chevron-down"></i>
+                                </button>
+
+                                <div class="experiencia-tags">
+                                    <span>Desenvolvimento de sistemas</span>
+                                    <span>Tecnologias de informação</span>
+                                </div>
+                            </div>
+
+                        </article>
+                    </div>
+
+                    <!-- WORKTAPE -->
+                    <div class="col-12 col-md-3" data-experiencia-animar>
+                        <article class="experiencia-card">
+
+                            <div class="experiencia-card-topo">
+                                <div class="experiencia-logo experiencia-logo-worktape">
+                                    <img
+                                        src="img/empresas/worktape.png"
+                                        alt="Logótipo da Worktape"
+                                        loading="lazy"
+                                    >
+                                </div>
+
+                                <span class="experiencia-duracao">
+                                    <i class="bi bi-clock"></i>
+                                    1 ano
+                                </span>
+                            </div>
+
+                            <div class="experiencia-conteudo">
+                                <span class="experiencia-tipo">
+                                    Experiência profissional
+                                </span>
+
+                                <h3>Worktape</h3>
+
+                                <p class="experiencia-empresa">
+                                    Marketing & Multimédia
+                                </p>
+
+                                <h4>Desenvolvedor Full Stack Principal</h4>
+
+                                <p class="experiencia-texto experiencia-texto-recolhido">
+                                    Trabalhei no desenvolvimento de vários websites
+                                    e lojas de comércio electrónico (e-commerce).
+                                    Também fui responsável por actividades relacionadas
+                                    com a gestão de alojamento web, domínios e contas
+                                    de correio electrónico.
+                                </p>
+
+                                <button
+                                    type="button"
+                                    class="experiencia-ler-mais"
+                                    aria-expanded="false"
+                                >
+                                    <span>Ler mais</span>
+                                    <i class="bi bi-chevron-down"></i>
+                                </button>
+
+                                <div class="experiencia-tags">
+                                    <span>Full Stack</span>
+                                    <span>Websites</span>
+                                    <span>E-commerce</span>
+                                    <span>Hosting & Domínios</span>
+                                </div>
+                            </div>
+
+                        </article>
+                    </div>
+
+                    <!-- FREELANCER -->
+                    <div class="col-12 col-md-3" data-experiencia-animar>
+                        <article class="experiencia-card experiencia-card-actual">
+
+                            <div class="experiencia-card-topo">
+                                <div class="experiencia-logo experiencia-logo-fallback">
+                                    <i class="bi bi-code-slash"></i>
+                                </div>
+
+                                <span class="experiencia-estado">
+                                    <span></span>
+                                    Actual
+                                </span>
+                            </div>
+
+                            <div class="experiencia-conteudo">
+                                <span class="experiencia-tipo">
+                                    Trabalho independente
+                                </span>
+
+                                <h3>Freelancer</h3>
+
+                                <p class="experiencia-empresa">
+                                    Desenvolvimento independente
+                                </p>
+
+                                <h4>Desenvolvedor Web Full Stack</h4>
+
+                                <p class="experiencia-texto experiencia-texto-recolhido">
+                                    Desenvolvo soluções web de forma independente,
+                                    trabalhando em projectos próprios e para clientes.
+                                    Esta experiência permite-me acompanhar diferentes
+                                    etapas dos projectos, desde a concepção até ao
+                                    desenvolvimento das soluções.
+                                </p>
+
+                                <button
+                                    type="button"
+                                    class="experiencia-ler-mais"
+                                    aria-expanded="false"
+                                >
+                                    <span>Ler mais</span>
+                                    <i class="bi bi-chevron-down"></i>
+                                </button>
+
+                                <div class="experiencia-tags">
+                                    <span>Desenvolvimento web</span>
+                                    <span>Soluções personalizadas</span>
+                                    <span>Projectos digitais</span>
+                                </div>
+                            </div>
+
+                        </article>
+                    </div>
+
+                    <!-- .LINKED -->
+                    <div class="col-12 col-md-3" data-experiencia-animar>
+                        <article class="experiencia-card experiencia-card-linked">
+
+                            <div class="experiencia-card-topo">
+                                <!--div class="experiencia-logo experiencia-logo-linked">
+                                    <img
+                                        src="{{ asset('images/experiencia/linked.png') }}"
+                                        alt="Logótipo da .linked"
+                                        loading="lazy"
+                                    >
+                                </div-->
+                                <div class="experiencia-logo experiencia-logo-fallback">
+                                    <i class="bi bi-building"></i>
+                                </div>
+
+                                <span class="experiencia-estado experiencia-estado-projecto">
+                                    Desenvolvimento
+                                </span>
+                            </div>
+
+                            <div class="experiencia-conteudo">
+                                <span class="experiencia-tipo">
+                                    Projecto empresarial
+                                </span>
+
+                                <h3>.linked</h3>
+
+                                <p class="experiencia-empresa">
+                                    A minha futura empresa de desenvolvimento
+                                </p>
+
+                                <h4>Fundador / Desenvolvedor</h4>
+
+                                <p class="experiencia-texto experiencia-texto-recolhido">
+                                    Estou a preparar a criação da .linked, uma empresa
+                                    orientada para o desenvolvimento de websites,
+                                    sistemas de gestão e aplicações web personalizadas,
+                                    com o objectivo de transformar ideias em soluções
+                                    digitais para empresas e particulares.
+                                </p>
+
+                                <button
+                                    type="button"
+                                    class="experiencia-ler-mais"
+                                    aria-expanded="false"
+                                >
+                                    <span>Ler mais</span>
+                                    <i class="bi bi-chevron-down"></i>
+                                </button>
+
+                                <div class="experiencia-tags">
+                                    <span>Desenvolvimento web</span>
+                                    <span>Sistemas de gestão</span>
+                                    <span>Empreendedorismo</span>
+                                </div>
+                            </div>
+
+                        </article>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- ./Experiencia -->
+
+        <!-- === Contactos === -->
+        <section id="Contactos" class="contactos py-5">
+            <div class="container">
+
+                <!-- Cabeçalho -->
+                <div class="titulo-section text-center"
+                    data-contacto-animar="titulo">
+
+                    <span class="contactos-subtitulo">VAMOS CONVERSAR</span>
+
+                    <h2>Vamos transformar a sua ideia em realidade?</h2>
+
+                    <p class="contactos-intro">
+                        Tem um projecto em mente ou precisa de uma solução digital
+                        para o seu negócio? Entre em contacto comigo e vamos
+                        encontrar a melhor solução.
+                    </p>
+
+                </div>
+
+                <div class="row g-4 g-lg-5 align-items-stretch contactos-conteudo">
+
+                    <!-- Informações de contacto -->
+                    <div class="col-lg-5"
+                        data-contacto-animar="informacoes">
+
+                        <div class="contactos-info">
+                            <span class="contactos-etiqueta">
+                                <span class="contactos-ponto"></span>
+                                DISPONÍVEL PARA NOVOS PROJECTOS
+                            </span>
+
+                            <h3>Vamos falar sobre o seu próximo projecto.</h3>
+
+                            <p class="contactos-info-texto">
+                                Estou disponível para colaborar em websites,
+                                sistemas de gestão, aplicações web e outros
+                                projectos digitais personalizados.
+                            </p>
+
+                            <div class="contactos-lista">
+
+                                <!-- E-mail -->
+                                <a href="mailto:joaomavingaramos@gmail.com"
+                                class="contacto-item">
+
+                                    <span class="contacto-icone">
+                                        <i class="bi bi-envelope"></i>
+                                    </span>
+
+                                    <span class="contacto-detalhes">
+                                        <small>E-mail</small>
+                                        <strong>joaomavingaramos@gmail.com</strong>
+                                    </span>
+
+                                    <i class="bi bi-arrow-up-right contacto-seta"></i>
+                                </a>
+
+                                <!-- LinkedIn -->
+                                <a href="https://www.linkedin.com/in/jo%C3%A3o-ramos-132584325/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                class="contacto-item">
+
+                                    <span class="contacto-icone">
+                                        <i class="bi bi-linkedin"></i>
+                                    </span>
+
+                                    <span class="contacto-detalhes">
+                                        <small>LinkedIn</small>
+                                        <strong>João Ramos</strong>
+                                    </span>
+
+                                    <i class="bi bi-arrow-up-right contacto-seta"></i>
+                                </a>
+
+                                <!-- GitHub -->
+                                <a href="https://github.com/Ramuzjr"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                class="contacto-item">
+
+                                    <span class="contacto-icone">
+                                        <i class="bi bi-github"></i>
+                                    </span>
+
+                                    <span class="contacto-detalhes">
+                                        <small>GitHub</small>
+                                        <strong>Explorar os meus projectos</strong>
+                                    </span>
+
+                                    <i class="bi bi-arrow-up-right contacto-seta"></i>
+                                </a>
+
+                                <!-- WhatsApp -->
+                                <a href="https://wa.me/972472889"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                class="contacto-item">
+
+                                    <span class="contacto-icone">
+                                        <i class="bi bi-whatsapp"></i>
+                                    </span>
+
+                                    <span class="contacto-detalhes">
+                                        <small>WhatsApp</small>
+                                        <strong>+244 972 472 889</strong>
+                                    </span>
+
+                                    <i class="bi bi-arrow-up-right contacto-seta"></i>
+                                </a>
+
+                                <!-- Telefone -->
+                                <div class="contacto-item">
+
+                                    <span class="contacto-icone">
+                                        <i class="bi bi-telephone"></i>
+                                    </span>
+
+                                    <span class="contacto-detalhes">
+                                        <small>Telefone</small>
+                                        <strong>224 222 000</strong>
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="contactos-separador"></div>
+
+                        </div>
+                    </div>
+
+                    <!-- Formulário de contacto -->
+                    <div class="col-lg-7"
+                        data-contacto-animar="formulario">
+
+                        <div class="contactos-formulario">
+                            <div class="contactos-formulario-cabecalho">
+                                <div>
+                                    <span class="contactos-formulario-subtitulo">
+                                        CONTACTO DIRECTO
+                                    </span>
+
+                                    <h3>Envie-me uma mensagem</h3>
+
+                                    <p>
+                                        Preencha os campos abaixo. Responderei
+                                        assim que possível.
+                                    </p>
+                                </div>
+
+                                <span class="contactos-formulario-icone">
+                                    <i class="bi bi-send"></i>
+                                </span>
+                            </div>
+
+                            <form id="formularioContacto"
+                                class="form-contactos"
+                                action="#Contactos"
+                                method="POST">
+
+                                @csrf
+
+                                <div class="row g-3">
+
+                                    <div class="col-md-6">
+                                        <label for="contactoNome">
+                                            Nome completo
+                                        </label>
+
+                                        <input type="text"
+                                            id="contactoNome"
+                                            name="nome"
+                                            class="form-control"
+                                            placeholder="O seu nome"
+                                            autocomplete="name"
+                                            maxlength="100"
+                                            required>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <label for="contactoEmail">
+                                            E-mail
+                                        </label>
+
+                                        <input type="email"
+                                            id="contactoEmail"
+                                            name="email"
+                                            class="form-control"
+                                            placeholder="nome@exemplo.com"
+                                            autocomplete="email"
+                                            maxlength="150"
+                                            required>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <label for="contactoServico">
+                                            Serviço pretendido
+                                        </label>
+
+                                        <select id="contactoServico"
+                                                name="servico"
+                                                class="form-select"
+                                                required>
+
+                                            <option value="" selected disabled>
+                                                Seleccione um serviço
+                                            </option>
+
+                                            <option value="Website ou landing page">
+                                                Website ou landing page
+                                            </option>
+
+                                            <option value="Sistema de gestão">
+                                                Sistema de gestão
+                                            </option>
+
+                                            <option value="Aplicação web">
+                                                Aplicação web personalizada
+                                            </option>
+
+                                            <option value="Loja online">
+                                                Loja online
+                                            </option>
+
+                                            <option value="Hospedagem e domínios">
+                                                Hospedagem e domínios
+                                            </option>
+
+                                            <option value="Manutenção e suporte">
+                                                Manutenção e suporte
+                                            </option>
+
+                                            <option value="Outro">
+                                                Outro projecto
+                                            </option>
+                                        </select>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <label for="contactoOrcamento">
+                                            Orçamento estimado
+                                            <span class="campo-opcional">(opcional)</span>
+                                        </label>
+
+                                        <select id="contactoOrcamento"
+                                                name="orcamento"
+                                                class="form-select">
+
+                                            <option value="" selected>
+                                                Seleccione uma opção
+                                            </option>
+
+                                            <option value="A definir">
+                                                Ainda por definir
+                                            </option>
+
+                                            <option value="Até 100000 AOA">
+                                                Até 100.000 Kz
+                                            </option>
+
+                                            <option value="100000 a 300000 AOA">
+                                                100.000 – 300.000 Kz
+                                            </option>
+
+                                            <option value="300000 a 600000 AOA">
+                                                300.000 – 600.000 Kz
+                                            </option>
+
+                                            <option value="Acima de 600000 AOA">
+                                                Acima de 600.000 Kz
+                                            </option>
+                                        </select>
+                                    </div>
+
+                                    <div class="col-12">
+                                        <label for="contactoAssunto">
+                                            Assunto
+                                        </label>
+
+                                        <input type="text"
+                                            id="contactoAssunto"
+                                            name="assunto"
+                                            class="form-control"
+                                            placeholder="Em que posso ajudar?"
+                                            maxlength="150"
+                                            required>
+                                    </div>
+
+                                    <div class="col-12">
+                                        <label for="contactoMensagem">
+                                            Mensagem
+                                        </label>
+
+                                        <textarea id="contactoMensagem"
+                                                name="mensagem"
+                                                class="form-control"
+                                                rows="5"
+                                                maxlength="3000"
+                                                placeholder="Descreva brevemente a sua ideia ou projecto..."
+                                                required></textarea>
+
+                                        <div class="contactos-contador">
+                                            <span>Seja claro sobre o que pretende.</span>
+                                            <span><span id="contactoCaracteres">0</span>/3000</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12">
+                                        <button type="submit"
+                                                class="btn-contactos">
+
+                                            <span>Enviar mensagem</span>
+                                            <i class="bi bi-arrow-up-right"></i>
+                                        </button>
+
+                                        <p class="contactos-privacidade">
+                                            <i class="bi bi-shield-check"></i>
+                                            Os seus dados devem ser utilizados
+                                            apenas para responder ao seu contacto.
+                                        </p>
+                                    </div>
+
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- ./Contactos -->
+    </main>
+    <!-- ./Conteudo -->
+
+    
+    <!-- === button-up === -->
+    <button
+        type="button"
+        id="voltarTopo"
+        class="btn-voltar-topo"
+        aria-label="Voltar ao topo"
+        title="Voltar ao topo">
+        <i class="bi bi-arrow-up"></i>
+    </button>  
+    <!-- ./button-up -->
+    
+    <!-- === Rodapé === -->
+    
+    <!-- ./Rodapé -->
+
+    <!-- === Bootstrap JS === -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="js/animacoes.js"></script>
+
+</body>
+</html>
