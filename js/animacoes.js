@@ -735,3 +735,43 @@ document.addEventListener('DOMContentLoaded', function () {
         actualizarContador();
     }
 });
+
+// certificações
+document.addEventListener('DOMContentLoaded', () => {
+    const elementos = document.querySelectorAll(
+        '[data-certificacao-animar]'
+    );
+
+    if (!('IntersectionObserver' in window)) {
+        elementos.forEach((elemento) => {
+            elemento.classList.add('certificacao-visivel');
+        });
+
+        return;
+    }
+
+    const observador = new IntersectionObserver((entradas, observer) => {
+        entradas.forEach((entrada) => {
+            if (entrada.isIntersecting) {
+                entrada.target.classList.add('certificacao-visivel');
+                observer.unobserve(entrada.target);
+            }
+        });
+    }, {
+        threshold: 0.12
+    });
+
+    elementos.forEach((elemento, indice) => {
+        elemento.style.transitionDelay = `${(indice % 3) * 100}ms`;
+        observador.observe(elemento);
+    });
+});
+
+// rodapé
+document.addEventListener('DOMContentLoaded', () => {
+    const anoRodape = document.getElementById('anoRodape');
+
+    if (anoRodape) {
+        anoRodape.textContent = new Date().getFullYear();
+    }
+});
